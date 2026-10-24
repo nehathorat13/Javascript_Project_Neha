@@ -1,0 +1,112 @@
+[
+  {
+    "question": "Which keyword declares a block-scoped variable in JavaScript?",
+    "options": [
+      "var",
+      "let",
+      "define",
+      "dim"
+    ],
+    "answer": 1,
+    "explanation": "`let` declares a block-scoped variable. `const` is also block-scoped when reassignment is not needed."
+  },
+  {
+    "question": "Which method converts a JSON string into a JavaScript object?",
+    "options": [
+      "JSON.stringify()",
+      "JSON.parse()",
+      "Object.toJSON()",
+      "JSON.convert()"
+    ],
+    "answer": 1,
+    "explanation": "`JSON.parse()` reads JSON text and returns the corresponding JavaScript value."
+  },
+  {
+    "question": "What does `===` check?",
+    "options": [
+      "Value only",
+      "Type only",
+      "Value and type",
+      "Whether values are objects"
+    ],
+    "answer": 2,
+    "explanation": "Strict equality compares both value and type without automatic type coercion."
+  },
+  {
+    "question": "Which array method creates a new array by transforming each item?",
+    "options": [
+      "forEach()",
+      "map()",
+      "find()",
+      "push()"
+    ],
+    "answer": 1,
+    "explanation": "`map()` returns a new array containing the result of calling a callback for every item."
+  },
+  {
+    "question": "Which value represents an intentional absence of a value?",
+    "options": [
+      "0",
+      "false",
+      "null",
+      "NaN"
+    ],
+    "answer": 2,
+    "explanation": "`null` is commonly used to represent an intentional absence of a value."
+  },
+  {
+    "question": "Which statement handles an error that may be thrown?",
+    "options": [
+      "try...catch",
+      "if...else",
+      "switch...case",
+      "for...of"
+    ],
+    "answer": 0,
+    "explanation": "A `try...catch` statement lets you handle exceptions thrown in the `try` block."
+  },
+  {
+    "question": "What does `Array.isArray([])` return?",
+    "options": [
+      "undefined",
+      "null",
+      "false",
+      "true"
+    ],
+    "answer": 3,
+    "explanation": "`Array.isArray()` returns `true` when the supplied value is an array."
+  },
+  {
+    "question": "Which operator provides a fallback only when the left side is null or undefined?",
+    "options": [
+      "||",
+      "??",
+      "&&",
+      "=="
+    ],
+    "answer": 1,
+    "explanation": "The nullish coalescing operator `??` uses its right side only for `null` or `undefined`."
+  },
+  {
+    "question": "Which function schedules code to run after a delay?",
+    "options": [
+      "setTimeout()",
+      "setDelay()",
+      "waitFor()",
+      "delayCode()"
+    ],
+    "answer": 0,
+    "explanation": "`setTimeout()` schedules a callback to run after at least the specified delay."
+  },
+  {
+    "question": "How do you add an item to the end of an array?",
+    "options": [
+      "append()",
+      "addLast()",
+      "push()",
+      "insertEnd()"
+    ],
+    "answer": 2,
+    "explanation": "`push()` adds one or more items to the end of an array."
+  }
+]
